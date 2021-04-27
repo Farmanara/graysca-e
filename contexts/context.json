@@ -1,0 +1,171 @@
+{
+
+    "head":{
+        "title":"",
+        "meta":{
+
+        }
+    },
+
+    "sections":[
+        {
+            "file":"grayscale_template/sections/navbar.html",
+            "content":{
+                "id":"mainNav",
+                "href":"#page-top",
+                "heading":"Start Bootstrap",
+                "btn_text":"Menu",
+                "btn_i_class":"fas fa-bars",
+                "items":[
+                    {
+                        "href":"#about",
+                        "text":"About"
+                    },
+                    {
+                        "href":"#projects",
+                        "text":"Projects"
+                    },
+                    {
+                       "href":"#signup",
+                        "text":"Contact"
+                    }
+                ]
+
+            }
+        },
+        {
+            "file":"grayscale_template/sections/masthead.html",
+            "content":{
+                "heading_class":"mx-auto my-0 text-uppercase",
+                "heading":"Grayscale",
+                "sub_heading_class":"text-white-50 mx-auto mt-2 mb-5",
+                "sub_heading":"A free, responsive, one page Bootstrap theme created by Start Bootstrap.",
+                "btn_class":"btn btn-primary js-scroll-trigger",
+                "btn_href":"#about",
+                "btn_text":"Get Started"
+            }
+        },
+        {
+            "file":"grayscale_template/sections/about.html",
+            "content":{
+                "heading_class":"text-white mb-4",
+                "heading":"Built with Bootstrap 4",
+                "sub_heading":{
+                    "class":"text-white-50",
+                    "part_1":"Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on",
+                    "anchor_href":"https://startbootstrap.com/theme/grayscale/",
+                    "anchor_text":"the preview page",
+                    "part_2":". The theme is open source, and you can use it for any purpose, personal or commercial.",
+                    "img":"grayscale_template/assets/img/ipad.png",
+                    "img_alt":""
+                }
+            
+            }
+        },
+        {
+            "file":"grayscale_template/sections/projects.html",
+            "content":{
+                "id":"projects",
+                "featured":{
+                 "img":"grayscale_template/assets/img/bg-masthead.jpg",
+                 "img_alt":"",
+                 "heading":"Shoreline",
+                 "description":"Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!"
+
+                },
+                "projects":[
+                    {
+                        "div_class":"row justify-content-center no-gutters mb-5 mb-lg-0",
+                        "img":"grayscale_template/assets/img/demo-image-01.jpg",
+                        "img_alt":"",
+                        "div_class_2":"col-lg-6",
+                        "div_class_3":"project-text w-100 my-auto text-center text-lg-left",
+                        "heading":"Misty",
+                        "description":"An example of where you can put an image of a project, or anything else, along with a description."
+
+
+                    },
+                    {
+                        "div_class":"row justify-content-center no-gutters",
+                        "img":"grayscale_template/assets/img/demo-image-02.jpg",
+                        "img_alt":"",
+                        "div_class_2":"col-lg-6 order-lg-first",
+                        "div_class_3":"project-text w-100 my-auto text-center text-lg-right",
+                        "heading":"Mountains",
+                        "description":"Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!"
+
+
+                    }
+                ]
+            }
+        },
+        {
+          "file":"grayscale_template/sections/signup.html",
+          "content":{
+              "id":"signup",
+              "i_class":"far fa-paper-plane fa-2x mb-2 text-white",
+              "heading_class":"text-white mb-5",
+              "heading":"Subscribe to receive updates!",
+              "form":{
+                  "input":{
+                      "class":"form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0",
+                      "id":"inputEmail",
+                      "type":"email",
+                      "placeholder":"Enter email address..."       
+                  },
+                  "button":{
+                      "class":"btn btn-primary mx-auto",
+                      "type":"submit",
+                      "text":"Subscribe"
+                  }
+
+              }  
+            }  
+        },
+        {
+            "file":"grayscale_template/sections/contact.html",
+            "content":{
+
+                "items":[
+                    {
+                       "i_class":"fas fa-map-marked-alt text-primary mb-2",
+                       "heading":"Address",
+                       "sub_heading":"4923 Market Street, Orlando FL"
+                    },
+                    {
+                        "i_class":"fas fa-envelope text-primary mb-2",
+                        "heading":"Email",
+                        "href":"#!",
+                        "sub_heading":"hello@yourdomain.com"
+                    },
+                    {
+                        "i_class":"fas fa-mobile-alt text-primary mb-2",
+                        "heading":"Phone",
+                        "sub_heading":"+1 (555) 902-8832"   
+                    }
+                ],
+                "socials":[
+                    {
+                        "href":"#!",
+                        "i_class":"fab fa-twitter"
+                    },
+                    {
+                        "href":"#!",
+                        "i_class":"fab fa-facebook-f"
+                    },
+                    {
+                        "href":"#!",
+                        "i_class":"fab fa-github"
+                    }
+                ]
+            }
+        },{
+           
+            "file":"grayscale_template/sections/footer.html",
+            "content":{
+                "class":"footer bg-black small text-center text-white-50",
+                "text":"Copyright © Your Website 2020"
+            }
+        }
+    ]    
+}

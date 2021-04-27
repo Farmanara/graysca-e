@@ -1,0 +1,18 @@
+  {%load static%}
+  <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="{{section.content.id}}">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="{{section.content.href}}">{{section.content.heading}}</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    {{section.content.btn_text}}
+                    <i class="{{section.content.btn_i_class}}"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                    {%for item in section.content.items%}
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{item.href}}">{{item.text}}</a></li>
+                    {%endfor%}
+                    </ul>
+                </div>
+            </div>
+        </nav>

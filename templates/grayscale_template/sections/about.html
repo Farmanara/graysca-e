@@ -1,0 +1,17 @@
+    {%load static%}
+    <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="{{section.content.heading_class}}">{{section.content.heading}}</h2>
+                        <p class="{{section.content.sub_heading.class}}">
+                            {{section.content.sub_heading.part_1}}
+                            <a href="{{section.content.sub_heading.anchor_href}}">{{section.content.sub_heading.anchor_text}}</a>
+                            {{section.content.sub_heading.part_2}}
+                        </p>
+                    </div>
+                </div>
+                <img class="img-fluid" src="{%static section.content.sub_heading.img%}" alt="{{section.content.sub_heading.img_alt}}" />
+            </div>
+        </section>

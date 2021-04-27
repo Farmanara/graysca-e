@@ -1,0 +1,34 @@
+ {%load static%}
+ <!-- Projects-->
+        <section class="projects-section bg-light" id="{{section.content.id}}">
+            <div class="container">
+                <!-- Featured Project Row-->
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="{%static section.content.featured.img %}" alt="{{section.content.featured.img_alt}}" /></div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>{{section.content.featured.heading}}</h4>
+                            <p class="text-black-50 mb-0">{{section.content.featured.description}}</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Projects -->
+                {%for project in section.content.projects%}
+                <div class="{{project.div_class}}">
+                    <div class="col-lg-6"><img class="img-fluid" src="{%static project.img %}" alt="{{project.img_alt}}" /></div>
+                    <div class="{{project.div_class_2}}">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="{{project.div_class_3}}">
+                                    <h4 class="text-white">{{project.heading}}</h4>
+                                    <p class="mb-0 text-white-50">{{project.description}}</p>
+                                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {%endfor%}
+             
+            </div>
+        </section>
