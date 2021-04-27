@@ -1,9 +1,0 @@
-static links update >> done
-sectioning >> done
-context navbar>> done
-context masthead>> done
-context about>> done
-context projects>> done
-context signup >> done
-context contact >> done
-context footer >> done

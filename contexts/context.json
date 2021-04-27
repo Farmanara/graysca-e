@@ -1,10 +1,13 @@
 {
 
     "head":{
-        "title":"",
         "meta":{
+            "description":"",
+            "author":""
+        },
+        "title":"Grayscale - Start Bootstrap Theme",
+        "favicon":"grayscale_template/assets/img/favicon.ico"
 
-        }
     },
 
     "sections":[
