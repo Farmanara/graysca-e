@@ -84,8 +84,8 @@
                         "div_class_2":"col-lg-6",
                         "div_class_3":"project-text w-100 my-auto text-center text-lg-left",
                         "heading":"Misty",
-                        "description":"An example of where you can put an image of a project, or anything else, along with a description."
-
+                        "description":"An example of where you can put an image of a project, or anything else, along with a description.",
+                        "hr_class":"d-none d-lg-block mb-0 ml-0"
 
                     },
                     {
@@ -95,7 +95,8 @@
                         "div_class_2":"col-lg-6 order-lg-first",
                         "div_class_3":"project-text w-100 my-auto text-center text-lg-right",
                         "heading":"Mountains",
-                        "description":"Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!"
+                        "description":"Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!",
+                        "hr_class":"d-none d-lg-block mb-0 mr-0"
 
 
                     }
